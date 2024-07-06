@@ -21,6 +21,7 @@ header{
     background-repeat: no-repeat;
     background-position: right 220px bottom ;
     padding: 175px 400px 145px 200px;
+    margin-bottom: 160px;
 
 
 }
@@ -47,9 +48,90 @@ header{
     background-color: #e55473 ;
     font-size: 20px ;
     font-weight: 500 ;
+
     color: white;
     border-radius: 8px;
     border: 0px;
     padding: 19px 40px;
+}
+
+.shop-now-button:hover{
+    background-color: #a82543 ;
+    font-size: 20px ;
+    font-weight: 500 ;
+    color: white;
+    border-radius: 8px;
+    border: 0px;
+    padding: 19px 40px;
+}
+
+/* featured flowers section  */
+
+.featured-flowers-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featured-flower-text{
+    margin-bottom: 50px;
+}
+
+.featured-title{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.featured-text{
+    font-size: 18px;
+    color: #7c7677;
+    text-align: center;
+}
+
+.featured-flowers-card-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+
+}
+
+.featured-flower-card{
+    /* width: 500px; */
+    text-align: center;
+    text-decoration: underline;
+}
+
+.featured-flower-image1{
+    background-color: #f2deeb;
+    border-radius: 230px 230px 0px 0px;
+    padding: 113px 70px 0px 70px;
+    margin-bottom: 25px;
+
+}
+
+.featured-flower-image2{
+    background-color: #daf0f1;
+    border-radius: 230px 230px 0px 0px;
+    padding: 100px 40px 70px 40px;
+    margin-bottom: 25px;
+
+
+}
+
+.featured-flower-image3{
+    background-color: #e4ecdc;
+    border-radius: 230px 230px 0px 0px;
+    padding: 70px 68px 0px 68px;
+    margin-bottom: 25px;
+
+}
+
+.featured-flower-text{
+    font-size: 24px;
+    font-weight: 700;
+    
 }
 
