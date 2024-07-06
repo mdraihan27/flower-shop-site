@@ -1,0 +1,55 @@
+/* universal */
+
+*{
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* body */
+
+body{
+
+}
+
+/* header */
+
+header{
+    background-color: #fdeef1; 
+    background-image: url('images/pngwing\ 10.png');
+    background-repeat: no-repeat;
+    background-position: right 220px bottom ;
+    padding: 175px 400px 145px 200px;
+
+
+}
+
+.header-items{
+    max-width: 708px;
+}
+
+.header-title{
+    font-size: 80px;
+    font-weight: 700;
+    color: #272727;
+    margin-bottom: 35px;
+}
+.header-text{
+    font-size: 18;
+    line-height: 30px;
+    color: #7c7677;
+    font-weight:600 ;
+    margin-bottom: 28px;
+}
+
+.shop-now-button{
+    background-color: #e55473 ;
+    font-size: 20px ;
+    font-weight: 500 ;
+    color: white;
+    border-radius: 8px;
+    border: 0px;
+    padding: 19px 40px;
+}
+
