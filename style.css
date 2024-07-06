@@ -56,7 +56,7 @@ header{
 }
 
 .shop-now-button:hover{
-    background-color: #a82543 ;
+    background-color: #de1e4b ;
     font-size: 20px ;
     font-weight: 500 ;
     color: white;
@@ -107,7 +107,7 @@ header{
 .featured-flower-image1{
     background-color: #f2deeb;
     border-radius: 230px 230px 0px 0px;
-    padding: 113px 70px 0px 70px;
+    padding: 113px 78px 0px 78px;
     margin-bottom: 25px;
 
 }
@@ -115,7 +115,7 @@ header{
 .featured-flower-image2{
     background-color: #daf0f1;
     border-radius: 230px 230px 0px 0px;
-    padding: 100px 40px 70px 40px;
+    padding: 100px 48px 70px 48px;
     margin-bottom: 25px;
 
 
@@ -124,7 +124,7 @@ header{
 .featured-flower-image3{
     background-color: #e4ecdc;
     border-radius: 230px 230px 0px 0px;
-    padding: 70px 68px 0px 68px;
+    padding: 70px 78px 0px 78px;
     margin-bottom: 25px;
 
 }
@@ -132,6 +132,252 @@ header{
 .featured-flower-text{
     font-size: 24px;
     font-weight: 700;
+    line-height: 30px;
     
 }
 
+/* delivery section  */
+
+.delivery-section{
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+    padding: 75px 100px;
+    justify-content: space-around;
+    margin: 100px 209px;
+    
+    
+}
+
+.delivery-card{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.delivery-image{
+    max-width: 88px;
+    margin-bottom: 27px;
+}
+
+.delivery-text{
+    font-size: 24px;
+    font-weight: 600;
+    color: #7c7677;
+}
+
+/* sale section  */
+
+.sale-section{
+    background-color: #fdf6f8;
+    background-image: url('images/pngwing\ 8.png');
+    background-repeat: no-repeat;
+    background-position: right 400px bottom 75px;
+    padding: 200px 0 160px 360px;
+    display: flex;
+
+    
+    
+}
+
+.sale-items-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.sale-title{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 18px;
+}
+
+.sale-text{
+    font-size: 18px;
+    line-height: 30px;
+    color: #7c7677;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    
+}
+
+.sign-up-button{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: #e55473;
+    padding: 20px 45px;
+    border-radius: 8px;
+    border: 0px;
+
+}
+
+.sign-up-button:hover{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: #de1e4b;
+    padding: 20px 45px;
+    border-radius: 8px;
+    border: 0px;
+
+}
+
+.red-off{
+    color: #e55473;
+    
+
+}
+
+/* Instagram section  */
+
+.insta-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+.insta-title{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 18px;
+}
+
+.insta-text{
+    font-size: 18px;
+    color: #7c7677;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.insta-image-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+}
+
+.insta-image{
+    width: 342px;
+}
+
+
+/* Latest deals section  */
+
+.latest-deals-section{
+    margin-top: 130px;
+    background-image: url('images/Rectangle\ 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 140px;    
+    padding-bottom: 140px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    border: 0px;
+    
+}
+
+.latest-deals-title{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 15px;
+}
+
+.latest-deals-text{
+    font-size: 18px;
+    color: #7c7677;
+    line-height: 30px;
+    margin-bottom: 34px;
+
+}
+
+.email-and-subscribe{
+    display: flex;
+    column-gap: 18px;
+}
+
+.email-input{
+    font-size: 18px;
+    color: #7c7677;
+    padding: 20px 15px 20px 15px;
+    border-radius: 8px;
+    border: 0px;
+    width: 650px;
+    
+}
+
+.subscribe-button{
+    background-color: #e55473;
+    font-size:20px ;
+    font-weight: 500px;
+    padding: 18px 40px;
+    color: white;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.subscribe-button:hover{
+    background-color: #de1e4b;
+    font-size:20px ;
+    font-weight: 500px;
+    padding: 18px 40px;
+    color: white;
+    border-radius: 8px;
+    border: 0px;
+}
+
+
+/* footer  */
+
+footer{
+    background-color: #272727;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 0;
+}
+
+.footer-title{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.footer-title-span1{
+    color: #e55473;
+
+}
+
+.footer-title-span2{
+    color: white;
+}
+
+.footer-text{
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer-copyright{
+    color: #7c7677;
+    font-size: 16px;
+}
