@@ -10,36 +10,42 @@
 /* body */
 
 body{
-
+    background-color: #fdeef1; ;
 }
 
 /* header */
 
+.shop-title{
+    font-size: 125px;
+    margin-bottom: 60px;
+}
+
 header{
-    background-color: #fdeef1; 
+    background-color: #272727;
     background-image: url('images/pngwing\ 10.png');
     background-repeat: no-repeat;
     background-position: right 220px bottom ;
-    padding: 175px 400px 145px 200px;
-    margin-bottom: 80px;
+    padding: 30px 400px 145px 40px;
+    margin-bottom: 20px;
 
 
 }
 
 .header-items{
     max-width: 708px;
+    margin-left: 130px;
 }
 
 .header-title{
     font-size: 80px;
     font-weight: 700;
-    color: #272727;
+    color: #d9d6d7;
     margin-bottom: 35px;
 }
 .header-text{
-    font-size: 18;
+    font-size: 18px;
     line-height: 30px;
-    color: #7c7677;
+    color: #d9d6d7;
     font-weight:600 ;
     margin-bottom: 28px;
 }
@@ -57,13 +63,11 @@ header{
 
 .shop-now-button:hover{
     background-color: #de1e4b ;
-    font-size: 20px ;
-    font-weight: 500 ;
-    color: white;
-    border-radius: 8px;
-    border: 0px;
-    padding: 19px 40px;
+   
 }
+
+/* main  */
+
 
 /* featured flowers section  */
 
@@ -71,6 +75,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 80px;
 }
 
 .featured-flower-text{
@@ -139,7 +144,7 @@ header{
 /* delivery section  */
 
 .delivery-section{
-    background-color: #f4f4f4;
+    background-color: #dfdddd;
     display: flex;
     flex-direction: row;
     padding: 75px 100px;
@@ -173,7 +178,7 @@ header{
 /* sale section  */
 
 .sale-section{
-    background-color: #fdf6f8;
+    background-color: #e4ecdc;
     background-image: url('images/pngwing\ 8.png');
     background-repeat: no-repeat;
     background-position: right 400px bottom 75px;
@@ -372,7 +377,7 @@ footer{
 .footer-text{
     font-size: 18px;
     line-height: 30px;
-    color: white;
+    color: rgb(191, 191, 191);
     margin-bottom: 30px;
     text-align: center;
 }
@@ -380,4 +385,256 @@ footer{
 .footer-copyright{
     color: #7c7677;
     font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+
+    /* header  */
+
+    .shop-title{
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+
+    header {
+        padding: 20px 20px 10px 23px;
+        background-position: left 200px bottom ;
+        background-size: contain;
+        
+    }
+
+    .header-items{
+        max-width: 708px;
+        margin-left: 0px;
+    }
+
+    .header-title {
+        font-size: 35px;
+        max-width: 275px;
+        margin-left: 0px;
+    }
+
+    .header-title-parent-span{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-text{
+        display: none;
+    }
+
+    .shop-now-button {
+        margin: auto;
+    
+        display: block;
+    }
+
+    /* main  */
+
+    main {
+        padding: 0px 20px 0px 20px;
+
+    }
+
+    /* featured flower section  */
+
+    .featured-flowers-section{
+        margin-top: 0px;
+    }
+
+    .featured-flower-text{
+        margin-bottom: 0px;
+        margin-bottom: 30px;
+    }
+
+    .featured-title {
+        line-height: 50px;
+    }
+
+    .featured-flowers-card-container {
+        flex-direction: column;
+        row-gap: 0px;
+
+    }
+
+    .featured-flower-card > img {
+        /* scale: 0.7; */
+        border-radius: 230px ;
+        margin-bottom: 15px;
+
+    }
+
+    .featured-flower-card  {
+        margin-bottom: 35px;
+        font-weight: 500;
+    }
+
+    .featured-flower-image1{
+        width: 180px;
+        padding: 60px 65px 0px 65px;
+        
+    
+    }
+    
+    .featured-flower-image2{
+        width: 180px;
+        padding: 62px 65px 62px 64px;
+       
+    
+    
+    }
+    
+    .featured-flower-image3{
+        width: 180px;
+        padding: 36px 65px 0px 64px;
+    
+    
+    }
+
+    /* delivery section  */
+
+    .delivery-section {
+        margin: 0px;
+        flex-direction: column;
+        gap: 40px;
+        padding: 45px 40px;
+        align-items: flex-start;
+
+    }
+
+    .delivery-card {
+       
+        flex-direction: row;
+        gap: 50px;
+        
+       
+    }
+
+    .delivery-image {
+        max-width: 60px;
+        margin: auto;
+        
+    }
+
+    .delivery-text {
+        font-size: 17px;
+        margin: auto;
+        text-align: center;
+        
+    }
+
+    .d-text3{
+        margin-left: 18px;
+    }
+
+    /* sale section  */
+
+
+    .sale-section{
+
+        padding: 20px;
+        margin-top: 30px;
+
+    }
+
+    .sale-title{
+        font-weight: 800;
+        text-align: center;
+    }
+
+    /* instagram section  */
+
+    .insta-section {
+        margin-top: 20px;
+        
+    }
+
+    .insta-image-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .insta-image{
+        width: 170px;
+        box-shadow: 5px 5px 20px 0px silver;
+        
+    }
+
+    /* latest deals section  */
+
+    .latest-deals-section {
+        
+        background-size: contain;
+        padding: 0px 20px;
+        margin: 50px 0px;
+        margin-top: 70px;
+        align-items: center;
+        justify-content: center;
+        background-position: top;
+
+        
+    }
+    
+    .latest-deals-title{
+        font-size: 25px;
+        margin-bottom: 0px;
+        margin-top: 25px;
+    }
+
+    .latest-deals-text{
+        font-size: 16px;
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+
+    .email-and-subscribe {
+        display: block;
+        margin-top: 30px;
+        
+    }
+
+    .email-input{
+        margin: auto;
+        align-self: center;
+        width: 340px;
+        border: 2px solid #e55473;
+        margin-bottom: 20px;
+    }
+
+    .subscribe-button{
+        display: block;
+        margin: auto;
+        
+    }
+
+    /* footer  */
+
+    footer {
+        padding: 20px ;
+
+    }
+
+
+    .footer-title {
+        font-size: 34px;
+        margin-bottom: 7px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        margin-bottom: 7px;
+        
+    }
+
+    .footer-copyright {
+        font-size: 13px;
+    }
+
+
+
 }
